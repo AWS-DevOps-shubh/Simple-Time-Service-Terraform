@@ -55,3 +55,4 @@ Confirm the prompt with `yes`.
 - Ensure the container image is accessible from Docker Hub.
 - The NAT Gateway is required for ECS tasks in private subnets to pull the container image.
 - Update the `region` in the `provider` block if deploying to a different AWS region.
+- Please use http insted of https when access on Browser (ex: http://alb-dns-name).
