@@ -10,8 +10,12 @@ This project contains a Terraform module for setting up an Application Load Bala
 
 ## Prerequisites
 
-- Terraform installed on your system.
-- AWS credentials configured for Terraform.
+1. Install [Terraform](https://www.terraform.io/downloads.html).
+2. Configure AWS CLI with appropriate credentials:
+   ```bash
+   aws configure
+   ```
+3. Ensure your AWS account has permissions to create the required resources.
 
 ## Installation
 
