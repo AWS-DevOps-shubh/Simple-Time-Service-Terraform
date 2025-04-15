@@ -28,7 +28,7 @@ This project demonstrates deploying a Python web application to AWS using **Terr
 └── README.md
 
 
----bash
+```bash
 
 ## 🚀 Overview
 
