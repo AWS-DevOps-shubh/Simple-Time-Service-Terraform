@@ -49,7 +49,15 @@ This folder contains the Python backend application.
 - `app.py` – Main application
 - `requirements.txt` – Dependency list
 - `Dockerfile` – For containerization
+
+  
 ```
+
+
+
+
+
+
 
 ## 📦 Terraform Deployment
 
