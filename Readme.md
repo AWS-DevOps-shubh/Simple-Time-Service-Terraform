@@ -1,7 +1,10 @@
-This project demonstrates how to deploy a containerized Python application on AWS ECS (Fargate) using two different Terraform approaches:
+# Python App Deployment on AWS ECS using Terraform
 
-Modular Approach: Located in Terraform-ECS-Modules
+## 📁 Project Structure
 
-Raw Resources Approach: Located in terraform/
+.
+├── Python-app/                 # Contains the Python application code
+├── Terraform-ECS-Modules/     # Modular Terraform deployment
+├── terraform/                 # Resource-based Terraform deployment
+└── README.md                  # You're here!
 
-The app runs a Python backend API (like Flask/FastAPI) behind an Application Load Balancer with RDS MySQL and is deployed to public subnets in a custom VPC.
