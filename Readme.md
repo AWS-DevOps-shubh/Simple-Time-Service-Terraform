@@ -79,3 +79,24 @@ cd Terraform-ECS-Modules
 terraform init
 terraform plan
 terraform apply
+```
+### 2️⃣ Using Raw Resources (`terraform`)
+
+This method contains direct Terraform resource definitions without modular abstraction.
+
+✅ **Best for:**
+
+- Beginners learning Terraform
+- Developers who want full control over every AWS resource
+
+#### 📁 Folder Structure:
+
+- `terraform/`: Contains all raw `.tf` files needed to provision VPC, ECS, ALB, RDS, IAM, and other AWS resources manually.
+
+#### 🚀 Deployment Steps:
+
+```bash
+cd terraform
+terraform init
+terraform plan
+terraform apply
