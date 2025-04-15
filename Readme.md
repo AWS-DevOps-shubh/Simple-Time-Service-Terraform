@@ -100,3 +100,5 @@ cd terraform
 terraform init
 terraform plan
 terraform apply
+```
+After a successful apply, Terraform will output the Application Load Balancer DNS which you can use to access your app.
