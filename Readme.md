@@ -1,5 +1,11 @@
-# Python App Deployment on AWS ECS using Terraform
+# 🚀 Python Web Application with Terraform ECS Fargate Deployment
 
+This project demonstrates deploying a Python web application to AWS using **Terraform ECS Fargate** with two structures:
+
+- `Python-app`: Contains the source code of the Python application (Flask-based).
+- `Terraform-ECS-Modules`: Contains Terraform modules to deploy the application infrastructure using AWS ECS Fargate.
+- `terraform`: Uses direct Terraform resources for fine-grained infrastructure control.
+---
 ## 📁 Project Structure
 
 ```bash
