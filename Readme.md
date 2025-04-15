@@ -37,7 +37,6 @@ This project deploys a Python-based web application on AWS ECS Fargate using Ter
 - Dockerized Python app
 - ECS Fargate service
 - Load Balancer (ALB)
-- RDS MySQL database
 - Custom VPC, subnets, and security groups
 
 ---
@@ -62,4 +61,5 @@ def home():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
+```
 
