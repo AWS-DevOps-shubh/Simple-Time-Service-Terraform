@@ -50,9 +50,6 @@ This folder contains the Python backend application.
 - `requirements.txt` – Dependency list
 - `Dockerfile` – For containerization
 
-  
-```
-
 
 
 
