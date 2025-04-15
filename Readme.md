@@ -2,11 +2,24 @@
 
 ## 📁 Project Structure
 
+```bash
 .
-├── Python-app/                 # Contains the Python application code
-├── Terraform-ECS-Modules/     # Modular Terraform deployment
-├── terraform/                 # Resource-based Terraform deployment
-└── README.md                  # You're here!
+├── Python-app
+│   ├── app.py
+│   ├── requirements.txt
+│   └── Dockerfile
+├── Terraform-ECS-Modules
+│   └── modules/
+│       ├── vpc/
+│       ├── ecs/
+│       ├── alb/
+│       └── rds/
+├── terraform
+│   ├── main.tf
+│   ├── variables.tf
+│   ├── outputs.tf
+│   └── provider.tf
+└── README.md
 
 
 ---
