@@ -49,17 +49,28 @@ This folder contains the Python backend application.
 - `app.py` – Main application
 - `requirements.txt` – Dependency list
 - `Dockerfile` – For containerization
-
-### Sample `app.py`:
-```python
-from flask import Flask
-app = Flask(__name__)
-
-@app.route('/')
-def home():
-    return "Hello from ECS Fargate!"
-
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
 ```
 
+## 📦 Terraform Deployment
+
+There are two ways to deploy the application:
+
+---
+
+### 1️⃣ Using Terraform Modules (`Terraform-ECS-Modules`)
+
+This method uses modular and reusable Terraform configurations for better scalability and organization.
+
+#### ✅ Modules Included:
+
+- **vpc**: Creates the Virtual Private Cloud (VPC), public subnets, internet gateway, and route tables.
+- **ecs**: Provisions ECS Cluster, Fargate Task Definitions, Services, IAM Roles, and Security Groups.
+- **alb**: Sets up Application Load Balancer with Target Groups and Listeners.
+
+#### 🚀 Deployment Steps:
+
+```bash
+cd Terraform-ECS-Modules
+terraform init
+terraform plan
+terraform apply
